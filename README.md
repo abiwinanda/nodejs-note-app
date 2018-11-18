@@ -18,7 +18,7 @@ The add command will add a single note into notes-data.json file. This command n
 - title
 - body
 ```
-node app.js add -t "Note 1" -b "Body of note 1"
+node app.js add -t \"Note 1\" -b \"Body of note 1\"
 ```
 <br/>
 The list command will print all notes inside notes-data.json file
