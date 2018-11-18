@@ -17,25 +17,33 @@ The application has 4 command: add, list, read, remove.
 The add command will add a single note into notes-data.json file. This command need to receive two flags:
 - title
 - body
+
 ```
-node app.js add -t \"Note 1\" -b \"Body of note 1\"
+node app.js add -t "Note 1" -b "Body of note 1"
 ```
+
 <br/>
 The list command will print all notes inside notes-data.json file
+
 ```
 node app.js list
 ```
+
 <br/>
 The read command will read a single note from notes-data.json file.
 This command need to receive one flag:
 - title
+
 ```
 node app.js read -t "Note 1"
 ```
+
 <br/>
+
 The remove command will delete a note from notes-data.json file.
 This command need to receive one flag:
 - title
+
 ```
 node app.js remove -t "Note 1"
 ```
