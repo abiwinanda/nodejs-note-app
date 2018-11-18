@@ -32,6 +32,7 @@ node app.js list
 <br/>
 The read command will read a single note from notes-data.json file.
 This command need to receive one flag:
+
 - title
 
 ```
